@@ -37,22 +37,10 @@ namespace Pj.API.Controllers
 
         // POST: api/movie
         [HttpPost]
-        public async Task<IActionResult> AddMovie([FromBody] CreateMovieDto dto)
+        public async Task<IActionResult> AddMovie([FromBody] Movie movie)
         {
-            // Tạo entity Movie từ DTO
-            var movie = new Movie
-            {
-                Title = dto.Title,
-                Genre = dto.Genre,
-                ReleaseDate = dto.ReleaseDate,
-                Description = dto.Description
-                // Không set Reviews, Ratings, MovieSeriesTags
-            };
-
-            // Gọi service thêm vào DB
             await _movieService.AddMovieAsync(movie);
-
-            // Trả về 201 Created
+            // Có thể dùng CreatedAtAction để trả về link chi tiết
             return CreatedAtAction(nameof(GetMovieById), new { id = movie.Id }, movie);
         }
 
