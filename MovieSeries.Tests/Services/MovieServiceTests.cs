@@ -18,6 +18,18 @@ namespace MovieSeries.Tests.Services
             // Truyền mock vào constructor của MovieService
             _movieService = new MovieService(_repositoryMock.Object);
         }
+        [Fact]
+        public void AddMovie_ShouldReturnTrue_WhenMovieIsValid()
+        {
+            // Arrange
+            var movie = new Movie { Title = "Inception", Genre = "Sci-Fi" };
+            _repositoryMock.Setup(repo => repo.Add(movie)).Returns(true);
 
+            // Act
+            var result = _movieService.AddMovie(movie);
+
+            // Assert
+            Assert.True(result);
+        }
     }
 }
