@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Downloads\\Group2\\MovieSeries\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA53ED6-43E6-49C8-8209-D88DD5739C98}|MovieSeries\\MovieSeries.csproj|c:\\downloads\\group2\\movieseries\\movieseries\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA53ED6-43E6-49C8-8209-D88DD5739C98}|MovieSeries\\MovieSeries.csproj|solutionrelative:movieseries\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA53ED6-43E6-49C8-8209-D88DD5739C98}|MovieSeries\\MovieSeries.csproj|c:\\downloads\\group2\\movieseries\\movieseries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA53ED6-43E6-49C8-8209-D88DD5739C98}|MovieSeries\\MovieSeries.csproj|solutionrelative:movieseries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Downloads\\Group2\\MovieSeries\\MovieSeries\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MovieSeries\\WeatherForecast.cs",
+              "ToolTip": "C:\\Downloads\\Group2\\MovieSeries\\MovieSeries\\WeatherForecast.cs",
+              "RelativeToolTip": "MovieSeries\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:49:47.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Downloads\\Group2\\MovieSeries\\MovieSeries\\Program.cs",
+              "RelativeDocumentMoniker": "MovieSeries\\Program.cs",
+              "ToolTip": "C:\\Downloads\\Group2\\MovieSeries\\MovieSeries\\Program.cs",
+              "RelativeToolTip": "MovieSeries\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:49:45.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{66f449b5-c823-40bc-9016-02b4d06a1a8e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
