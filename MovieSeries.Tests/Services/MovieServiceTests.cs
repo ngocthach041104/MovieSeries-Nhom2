@@ -8,8 +8,8 @@ namespace MovieSeries.Tests.Services
 {
     public class MovieServiceTests
     {
-
-
+        private readonly Mock<IMovieRepository> _repositoryMock;
+        private readonly MovieService _movieService;
         public MovieServiceTests()
         {
             // Khởi tạo mock
