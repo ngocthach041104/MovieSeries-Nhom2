@@ -44,5 +44,10 @@ namespace Pj.ServiceLayer.Services
         {
             return await _movieRepository.GetTopRatedMoviesWithSpAsync(topCount);
         }
+
+        public bool AddMovie(Movie movie)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

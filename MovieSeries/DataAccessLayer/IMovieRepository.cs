@@ -12,5 +12,6 @@ namespace Pj.RepositoryLayer.Interfaces
         Task UpdateAsync(Movie movie);
         Task DeleteAsync(int id);
         Task<IEnumerable<Movie>> GetTopRatedMoviesWithSpAsync(int topCount);
+        void Add(Movie movie);
     }
 }
